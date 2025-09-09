@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="h-screen bg-slate-900 text-white flex flex-col overflow-hidden">
       <header className="bg-slate-800 border-b border-slate-700 px-4 py-3 flex-shrink-1">
-        <div className="flex items-center justify-evenly">
+        <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Building2 className="h-8 w-8 text-blue-500" />
             <h1 className="text-xl font-semibold">Company Portal</h1>
