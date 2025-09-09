@@ -63,7 +63,7 @@ function App() {
       </header>
 
       <div className="flex flex-1 overflow-hidden">
-        <nav className="w-80 bg-slate-800 border-r border-slate-700 max-width:1200px">
+        <nav className="w-80 bg-slate-800 border-r border-slate-700 flex-shrink-0">
           <div className="p-6">
             <ul className="space-y-2">
               {navigation.map((item) => {
